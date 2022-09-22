@@ -1,0 +1,135 @@
+/* .list { 
+  color: rgb(182, 158, 0);
+}
+.peredumovy {
+  color: brown;
+}
+
+.peredumovy p {
+  color: blueviolet;
+}
+
+.pidgotovka ~ p {
+  color: blue;
+}
+
+.pidgotovka .infowar {
+  color: blanchedalmond;
+}
+
+.pidgotovka,
+.infowar {
+  background-color: rgba(0, 0, 255, 0.204);
+}
+
+.crimea + p {
+  color: blanchedalmond;
+}
+
+.text > p {
+  color: aqua;
+}
+*/
+
+/* Підключення шрифтів */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap"); 
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.woff") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"),
+    url("../fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"),
+    url("../fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"),
+    url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+*/
+
+body {
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Larsseit";
+  font-weight: 700;
+  background-color: rgb(134, 134, 250);
+}
+
+.zmist li {
+  font-family: "Lato";
+  font-weight: 700;
+  color: brown;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.globalp p {
+  color: blue;
+}
+
+.eumaidan {
+  background-color: aqua;
+}
+.eumaidan .firstp {
+  background-color: yellow;
+}
+
+.eumaidan > p {
+  background-color: blueviolet;
+}
+
+.eumaidan ~ p {
+  background-color: bisque;
+}
